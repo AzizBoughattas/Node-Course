@@ -48,6 +48,8 @@ const userSchema = new mongoose.Schema({
             required:true
         }
     }]
+}, {
+    timestamps : true
 })
 
 // naamlou beha relation entre user o task
